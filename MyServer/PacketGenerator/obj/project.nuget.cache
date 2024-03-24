@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b9z5eg02l0v0j21KFi5g4k/79jpibQQx/xycLhum2he9KasC63mmTSvczY72gE8RozstCURU35QCLNPsg4uCUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MYCOM\\.nuget\\packages\\google.protobuf\\3.25.3\\google.protobuf.3.25.3.nupkg.sha512"
+  ],
+  "logs": []
+}

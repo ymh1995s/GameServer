@@ -1,0 +1,11 @@
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.deps.json
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.dll
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.pdb
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.AssemblyInfoInputs.cache
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.AssemblyInfo.cs
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.csproj.CoreCompileInputs.cache
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.dll
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\refint\MyServerCore.dll
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.pdb
+C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\ref\MyServerCore.dll

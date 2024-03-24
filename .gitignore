@@ -7,20 +7,23 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# VS Code generated folders
-.vscode/
-
 # Visual Studio generated folders and files
-*.user
+.vs/
+.vscode/
+*.sln
 *.suo
-*.sln.docstates
-*.dll
-*.exe
-*.pdb
+*.user
 *.userprefs
 *.unityproj
-*.apk
-*.unitypackage
+*.csproj
+*.pidb
+*.pdb
 
 # Mac generated files
 .DS_Store
+
+# Windows generated files
+Thumbs.db
+
+# Exclude DLL files from being ignored
+!*.dll
