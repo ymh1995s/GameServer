@@ -25,6 +25,7 @@ class PacketHandler :MonoBehaviour
         print("S_LeaveGameHandler Received");
         Managers.Object.Clear();
     }
+
     public static void S_SpawnHandler(PacketSession session, IMessage packet)
     {
         S_Spawn spawnPacket = packet as S_Spawn;

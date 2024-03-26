@@ -99,7 +99,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -234,10 +234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4979a4851506ab41b101a2f9a3947bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEffects:
-  - {fileID: 8300000, guid: b2ae882059d9c9440a620e6f703468e7, type: 3}
-  - {fileID: 8300000, guid: c176fd3e7fbf06344b65db78cc166bc2, type: 3}
-  audioSource: {fileID: 0}
 --- !u!1 &4649581416696694168
 GameObject:
   m_ObjectHideFlags: 0
