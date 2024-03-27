@@ -1,3 +1,4 @@
+using Google.Protobuf;
 using Google.Protobuf.Protocol;
 using Google.Protobuf.WellKnownTypes;
 using System.Collections;
@@ -64,8 +65,8 @@ public class MyPlayerController : PlayerController
 
     IEnumerator MoveDelay(float valueX, float valueY)
     {
-        yield return new WaitForSeconds(0.01f);
         canIMove = false;
+        yield return new WaitForSeconds(0.01f);
         C_Move movePacket = new C_Move();
 
         PosInfo.PosX = transform.position.x + valueX;

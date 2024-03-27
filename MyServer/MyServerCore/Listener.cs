@@ -14,7 +14,7 @@ namespace MyServerCore
         Socket _listenSocket;        
         Func<Session> _sessionFactory; // Accept 완료 후 행동 / Return Type가 있는 Delegate / Session Type return.
 
-        public void Init(IPEndPoint endPoint, Func<Session> sessionFactory, int register = 10, int backlog = 100)
+        public void Init(IPEndPoint endPoint, Func<Session> sessionFactory, int register = 15, int backlog = 200)
         {
             _listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             _sessionFactory += sessionFactory;
