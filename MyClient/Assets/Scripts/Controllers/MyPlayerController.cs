@@ -26,7 +26,6 @@ public class MyPlayerController : PlayerController
     const float moveVecSt = 0.1f;
     const float moveVecDi = 0.07f;
 
-
     protected override void Init()
     {
         base.Init();
@@ -63,7 +62,7 @@ public class MyPlayerController : PlayerController
         }
     }
 
-    IEnumerator MoveDelay(float valueX, float valueY)
+    IEnumerator MoveDelay(float valueX, float valueY, bool isLeft)
     {
         canIMove = false;
         yield return new WaitForSeconds(0.01f);
@@ -73,6 +72,7 @@ public class MyPlayerController : PlayerController
         PosInfo.PosY = transform.position.y + valueY;
 
         movePacket.PosInfo = PosInfo;
+        movePacket.IsLeft = isLeft;
         Managers.Network.Send(movePacket);
     }
 
@@ -92,6 +92,7 @@ public class MyPlayerController : PlayerController
             canIShoot = false;
             shootDelay = false;
             ShootCorountine = StartCoroutine("ShootDelay");
+            //ShootCorountine = StartCoroutine("ShootEffect");
         }
     }
 
@@ -139,11 +140,15 @@ public class MyPlayerController : PlayerController
             ReqMove(moveVecSt, 0);
         else { }
     }
+
     protected void ReqMove(float valueX, float valueY)
     {
-        ShootCorountine = StartCoroutine(MoveDelay(valueX, valueY));
-    }
+        bool isLeft=false;
+        if (valueX == 0) { }
+        else if (valueX > 0) isLeft = true;
 
+        ShootCorountine = StartCoroutine(MoveDelay(valueX, valueY, isLeft));
+    }
 
     bool SRay(float x, float y)
     {
@@ -176,7 +181,4 @@ public class MyPlayerController : PlayerController
         //    Gizmos.DrawSphere(hit.point, 0.1f);
         //}
     }
-
-
-
 }

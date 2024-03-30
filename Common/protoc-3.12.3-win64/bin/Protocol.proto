@@ -40,11 +40,13 @@ message S_Despawn {
 
 message C_Move {
   PositionInfo posInfo = 1;
+  bool isLeft= 2;
 }
 
 message S_Move {
   int32 objectId = 1;
   PositionInfo posInfo = 2;
+  bool isLeft= 3;
 }
 
 message C_Arrow {

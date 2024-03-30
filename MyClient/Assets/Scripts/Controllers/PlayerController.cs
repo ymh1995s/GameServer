@@ -8,9 +8,15 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : BaseController
 {
+    protected Transform flashTransform;
+    protected Coroutine shootEffect;
+
     protected override void Init()
     {
         base.Init();
+
+        flashTransform = transform.Find("flash");
+        flashTransform.gameObject.SetActive(false);
     }
 
     protected override void UpdateController()
@@ -28,5 +34,17 @@ public class PlayerController : BaseController
         {
             Destroy(go);
         }
+    }
+
+    public void PlayShootEffect()
+    {
+        shootEffect = StartCoroutine("ShootEffect");
+    }
+
+    IEnumerator ShootEffect()
+    {
+        flashTransform.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        flashTransform.gameObject.SetActive(false);
     }
 }

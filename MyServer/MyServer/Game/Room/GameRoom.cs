@@ -112,6 +112,7 @@ namespace MyServer.Game
 
             // 다른 플레이어한테도 알려준다
             S_Move resMovePacket = new S_Move();
+            resMovePacket.IsLeft = movePacket.IsLeft;
             resMovePacket.ObjectId = player.Info.ObjectId;
             resMovePacket.PosInfo = movePacket.PosInfo;
 

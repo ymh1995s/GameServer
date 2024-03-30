@@ -67,6 +67,7 @@ class PacketHandler
 
         room.Push(room.HandleDie, diePacket);
         room.Push(room.LeaveGame, player.Info.ObjectId);
+        Thread.Sleep(500);
         room.Push(room.EnterGame, player);
     }
 

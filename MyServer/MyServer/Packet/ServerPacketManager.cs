@@ -24,12 +24,12 @@ class PacketManager
 	public void Register()
 	{		
 		_onRecv.Add((ushort)MsgId.CMove, MakePacket<C_Move>);
-		_handler.Add((ushort)MsgId.CMove, PacketHandler.C_MoveHandler);
-        _onRecv.Add((ushort)MsgId.CArrow, MakePacket<C_Arrow>);
-        _handler.Add((ushort)MsgId.CArrow, PacketHandler.C_ArrowHandler);
-        _onRecv.Add((ushort)MsgId.CDie, MakePacket<C_Die>);
-        _handler.Add((ushort)MsgId.CDie, PacketHandler.C_DieHandler);
-    }
+		_handler.Add((ushort)MsgId.CMove, PacketHandler.C_MoveHandler);		
+		_onRecv.Add((ushort)MsgId.CArrow, MakePacket<C_Arrow>);
+		_handler.Add((ushort)MsgId.CArrow, PacketHandler.C_ArrowHandler);		
+		_onRecv.Add((ushort)MsgId.CDie, MakePacket<C_Die>);
+		_handler.Add((ushort)MsgId.CDie, PacketHandler.C_DieHandler);
+	}
 
 	public void OnRecvPacket(PacketSession session, ArraySegment<byte> buffer)
 	{
