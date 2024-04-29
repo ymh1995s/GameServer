@@ -1,6 +1,6 @@
 # 게임 서버
 
-핵심 코드는 [[GameServer/MyClient/Assets/Scripts/]]([s](https://github.com/ymh1995s/GameServer/tree/main/MyClient/Assets/Scripts)), [[GameServer/MyServer/]](https://github.com/ymh1995s/GameServer/tree/main/MyServer) 에서 확인할 수 있습니다.
+핵심 코드는 [[GameServer/MyClient/Assets/Scripts/]](https://github.com/ymh1995s/GameServer/tree/main/MyClient/Assets/Scripts), [[GameServer/MyServer/]](https://github.com/ymh1995s/GameServer/tree/main/MyServer) 에서 확인할 수 있습니다.
 
 ## 개요
 게임 서버를 구축하여 여러 사용자가 플레이 가능한 탑뷰 슈팅 멀티 게임 구현
