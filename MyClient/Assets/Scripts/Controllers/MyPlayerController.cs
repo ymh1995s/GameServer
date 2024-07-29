@@ -23,8 +23,9 @@ public class MyPlayerController : PlayerController
     protected Coroutine moveDelay;
 
     float dis = 0.1f; // 레이의 최대 거리
-    const float moveVecSt = 0.1f;
-    const float moveVecDi = 0.07f;
+    int addspeed = 2;
+    const float moveVecSt = 0.1f * 2;
+    const float moveVecDi = 0.07f * 2 ;
 
     protected override void Init()
     {

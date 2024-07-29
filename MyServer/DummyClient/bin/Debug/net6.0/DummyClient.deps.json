@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DummyClient/1.0.0": {
+        "dependencies": {
+          "MyServerCore": "1.0.0"
+        },
         "runtime": {
           "DummyClient.dll": {}
+        }
+      },
+      "MyServerCore/1.0.0": {
+        "runtime": {
+          "MyServerCore.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DummyClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyServerCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

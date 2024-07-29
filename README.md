@@ -2,6 +2,8 @@
 
 핵심 코드는 [[클라이언트 코드]](https://github.com/ymh1995s/GameServer/tree/main/MyClient/Assets/Scripts), [[서버 코드]](https://github.com/ymh1995s/GameServer/tree/main/MyServer) 에서 확인할 수 있습니다.
 
+데모 프로그램은 [[DEMO 폴더]](https://github.com/ymh1995s/GameServer/tree/main/DEMO)에서 확인할 수 있습니다.
+
 ## 개요
 게임 서버를 구축하여 여러 사용자가 플레이 가능한 탑뷰 슈팅 멀티 게임 구현
 

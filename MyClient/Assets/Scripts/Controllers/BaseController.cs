@@ -42,6 +42,7 @@ public class BaseController : MonoBehaviour
 
     public virtual void OnDead()
     {
+        print("ondead");
         GameObject effect = Managers.Resource.Instantiate("Effect/DieEffect");
         effect.transform.position = transform.position;
         effect.GetComponent<Animator>().Play("START");
@@ -49,13 +50,13 @@ public class BaseController : MonoBehaviour
     }
     public virtual void Sound_Dead()
     {
-        audioManager = AudioManager.instance;
-        audioManager.PlayGlobalSound(audioManager.soundEffects[1]);
+        //audioManager = AudioManager.instance;
+        //audioManager.PlayGlobalSound(audioManager.soundEffects[1]);
     }
 
     public virtual void Sound_Shoot()
     {
-        audioManager = AudioManager.instance;
-        audioManager.PlayGlobalSound(audioManager.soundEffects[0]);
+        //audioManager = AudioManager.instance;
+        //audioManager.PlayGlobalSound(audioManager.soundEffects[0]);
     }
 }

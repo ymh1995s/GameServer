@@ -52,6 +52,7 @@ namespace MyServer.Game
                     }
 
                     player.Session.Send(spawnPacket);
+                    Console.WriteLine( $"Enter Packet Send {player.Id}" );
                 }
             }
             // 타인한테 정보 전송
@@ -63,6 +64,7 @@ namespace MyServer.Game
                     if (p.Id != gameObject.Id)
                         p.Session.Send(spawnPacket);
                 }
+                Console.WriteLine($"Spawn Packet Broadcast");
             }
         }
 
@@ -82,6 +84,7 @@ namespace MyServer.Game
                 {
                     S_LeaveGame leavePacket = new S_LeaveGame();
                     player.Session.Send(leavePacket);
+                    Console.WriteLine($"Enter Packet Send {player.Id}");
                 }
             }
 
@@ -95,6 +98,7 @@ namespace MyServer.Game
                         p.Session.Send(despawnPacket);
                 }
             }
+            Console.WriteLine($"DeSpawn Packet Broadcast");
         }
 
 
@@ -116,6 +120,8 @@ namespace MyServer.Game
             resMovePacket.ObjectId = player.Info.ObjectId;
             resMovePacket.PosInfo = movePacket.PosInfo;
 
+            Console.WriteLine($"Move Packet Broadcast");
+
             Broadcast(resMovePacket);
         }
 
@@ -131,7 +137,10 @@ namespace MyServer.Game
             {
                 p.Session.Send(resArrowPacket);
             }
+
+            Console.WriteLine($"Attack Packet Broadcast");
         }
+
         public void HandleDie(C_Die diePacket)
         {
             // 다른 플레이어한테도 알려준다
@@ -143,6 +152,8 @@ namespace MyServer.Game
             {
                 p.Session.Send(resDiePacket);
             }
+
+            Console.WriteLine($"Die Packet Broadcast");
         }
 
         public Player FindPlayer(Func<GameObject, bool> condition)

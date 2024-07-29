@@ -22,6 +22,8 @@ class PacketHandler
             return;
 
         room.Push(room.HandleMove, player, movePacket);
+
+        Console.WriteLine($"Move Request Packet Recv. from {player.Id}");
     }
 
     public static void C_ArrowHandler(PacketSession session, IMessage packet)
@@ -39,6 +41,8 @@ class PacketHandler
             return;
 
         room.Push(room.HandleArrow, arrowPacket);
+
+        Console.WriteLine($"Attack Request Packet Recv. from {player.Id}");
     }
 
     public static void C_DieHandler(PacketSession session, IMessage packet)
@@ -62,8 +66,8 @@ class PacketHandler
         //player.PosInfo.PosX = 10;와 혼동 없이 싱크를 맞추기에 주의한다.
         player.Info.PosInfo.PosX = (float)(random.NextDouble() * 20.0 - 10.0);
         player.Info.PosInfo.PosY = (float)(random.NextDouble() * 20.0 - 10.0);
-        Console.WriteLine(player.Info.PosInfo.PosX);
-        Console.WriteLine(player.Info.PosInfo.PosY);
+
+        Console.WriteLine($"Die Request Packet Recv. from {player.Id}");
 
         room.Push(room.HandleDie, diePacket);
         room.Push(room.LeaveGame, player.Info.ObjectId);

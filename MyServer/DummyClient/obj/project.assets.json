@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MyServerCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyServerCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyServerCore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyServerCore/1.0.0": {
+      "type": "project",
+      "path": "../MyServerCore/MyServerCore.csproj",
+      "msbuildProject": "../MyServerCore/MyServerCore.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MyServerCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MYCOM\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
+              "projectPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

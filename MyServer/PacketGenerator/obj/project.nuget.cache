@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "b9z5eg02l0v0j21KFi5g4k/79jpibQQx/xycLhum2he9KasC63mmTSvczY72gE8RozstCURU35QCLNPsg4uCUQ==",
+  "dgSpecHash": "GJt+EVdVF2I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MYCOM\\.nuget\\packages\\google.protobuf\\3.25.3\\google.protobuf.3.25.3.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\google.protobuf\\3.25.3\\google.protobuf.3.25.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.32\\microsoft.netcore.app.host.win-x64.6.0.32.nupkg.sha512"
   ],
   "logs": []
 }

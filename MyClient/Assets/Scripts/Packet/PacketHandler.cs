@@ -22,7 +22,6 @@ class PacketHandler :MonoBehaviour
     public static void S_LeaveGameHandler(PacketSession session, IMessage packet)
     {
         S_LeaveGame leaveGameHandler = packet as S_LeaveGame;
-        print("S_LeaveGameHandler Received");
         Managers.Object.Clear();
     }
 
@@ -82,6 +81,8 @@ class PacketHandler :MonoBehaviour
     {
         S_Die diePacket = packet as S_Die;
 
+
+        print("S_DieHandler rec");
         //텍스트 이펙트
         string attacker =diePacket.AttackerId.ToString();
         string death = diePacket.ObjectId.ToString();   
@@ -95,7 +96,6 @@ class PacketHandler :MonoBehaviour
         BaseController bc = go.GetComponent<BaseController>();
         if (bc == null)
             return;
-
 
         bc.OnDead();
 

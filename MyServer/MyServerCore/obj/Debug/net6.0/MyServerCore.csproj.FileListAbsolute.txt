@@ -9,3 +9,15 @@ C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServer
 C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\refint\MyServerCore.dll
 C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.pdb
 C:\Users\MYCOM\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\ref\MyServerCore.dll
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.deps.json
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.dll
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\bin\Debug\net6.0\MyServerCore.pdb
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.AssemblyInfo.cs
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.sourcelink.json
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.dll
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\refint\MyServerCore.dll
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\MyServerCore.pdb
+C:\Users\user\Desktop\MyProject\MyServer\MyServerCore\obj\Debug\net6.0\ref\MyServerCore.dll

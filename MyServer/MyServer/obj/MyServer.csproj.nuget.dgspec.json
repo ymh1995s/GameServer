@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj": {}
+    "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
+    "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
         "projectName": "MyServerCore",
-        "projectPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
-        "packagesPath": "C:\\Users\\MYCOM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MYCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,26 +56,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj": {
+    "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
         "projectName": "MyServer",
-        "projectPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
-        "packagesPath": "C:\\Users\\MYCOM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServer\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MYCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,14 +97,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
-                "projectPath": "C:\\Users\\MYCOM\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj"
+              "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj"
               }
             }
           }
@@ -93,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -120,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
