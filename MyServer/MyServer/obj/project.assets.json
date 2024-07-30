@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServer\\MyServer.csproj",
       "projectName": "MyServer",
-      "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\MyServer.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServer\\MyServer.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServer\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,8 +91,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj"
+            "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServerCore\\MyServerCore.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServerCore\\MyServerCore.csproj"
             }
           }
         }

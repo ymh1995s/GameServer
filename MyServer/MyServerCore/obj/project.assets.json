@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServerCore\\MyServerCore.csproj",
       "projectName": "MyServerCore",
-      "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\MyServerCore.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServerCore\\MyServerCore.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\MyServerCore\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\MyServerCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,20 +62,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

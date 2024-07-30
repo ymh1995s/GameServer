@@ -18,16 +18,14 @@ public class NetworkManager
 	public void Init()
 	{
 		// DNS (Domain Name System)
-		string host = Dns.GetHostName();
-		IPHostEntry ipHost = Dns.GetHostEntry(host);
-        IPAddress ipAddr = ipHost.AddressList[0];
+		//      string host = Dns.GetHostName();
+		//IPHostEntry ipHost = Dns.GetHostEntry(host);
+		//IPAddress ipAddr = ipHost.AddressList[4];
+		string ipAddressString = "25.30.25.192";
+		//string ipAddressString = "192.168.219.102";
+		IPAddress ipAddress = IPAddress.Parse(ipAddressString);
+        IPEndPoint endPoint = new IPEndPoint(ipAddress, 7777);
 
-        //IPAddress ipAddr = ipHost.AddressList[4];
-        //string ipAddressString = "25.30.25.192";
-        //string ipAddressString = "192.168.219.102";
-        //IPAddress ipAddr = IPAddress.Parse(ipAddressString);
-
-        IPEndPoint endPoint = new IPEndPoint(ipAddr, 7777);
 
 		Connector connector = new Connector();
 

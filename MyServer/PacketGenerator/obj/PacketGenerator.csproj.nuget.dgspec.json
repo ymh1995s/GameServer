@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj": {}
+    "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\PacketGenerator\\PacketGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj": {
+    "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\PacketGenerator\\PacketGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
         "projectName": "PacketGenerator",
-        "projectPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\PacketGenerator\\PacketGenerator.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MyProject\\MyServer\\PacketGenerator\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\GameServer\\MyServer\\PacketGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,24 +62,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
