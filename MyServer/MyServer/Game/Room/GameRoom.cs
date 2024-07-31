@@ -84,7 +84,7 @@ namespace MyServer.Game
                 {
                     S_LeaveGame leavePacket = new S_LeaveGame();
                     player.Session.Send(leavePacket);
-                    Console.WriteLine($"Enter Packet Send {player.Id}");
+                    Console.WriteLine($"Leave Packet Send {player.Id}");
                 }
             }
 
